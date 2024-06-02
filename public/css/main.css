@@ -1,0 +1,92 @@
+body {
+    background-color: #40414f;
+    overflow-x: hidden;
+}
+
+#premium {
+    margin: 15px;
+    text-align: center;
+}
+
+.modal {
+    color: black;
+}
+
+#forget {
+    color: white;
+}
+
+#forget:hover {
+    color: #ffc107;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+/* Generate Report */
+.report-body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    background-color: #0da37f;
+}
+
+tr {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: auto;
+    }
+}
+
+.income {
+    background-color: #19875477;
+}
+
+.expense {
+    background-color: #dc354677;
+}
+
+nav {
+    margin-top: 25px;
+}
+
+.active .page-link {
+    background-color: #0da37f;
+    color: white;
+    border: 1px solid #0da37f;
+}
+
+.active .page-link:hover {
+    background-color: #0da3807b;
+    color: white;
+    border: 1px solid #0da38079;
+}
+
+.page-link {
+    color: #0da37f;
+}
+
+.page-link:hover {
+    color: #13b993;
+}
+
+/* All Reports */
